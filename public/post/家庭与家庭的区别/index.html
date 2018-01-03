@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>家庭与家庭的区别</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="家庭与家庭的区别">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="家庭与家庭的区别">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:image:src" content="">
+	
+	
+	<meta name="og:title" content="家庭与家庭的区别">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://rrotan.github.io/post/%E5%AE%B6%E5%BA%AD%E4%B8%8E%E5%AE%B6%E5%BA%AD%E7%9A%84%E5%8C%BA%E5%88%AB/">
+	<meta name="og:site_name" content="家庭与家庭的区别">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:author" content="">
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="/js/caption.js"></script>
+</head>
+
+<body>
+	
+
+
+
+<header >
+	<a href="/" style="float: left;color:#777;"><strong></strong></a>
+	
+
+
+</header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+    	el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+	<h1>家庭与家庭的区别 <aside></aside></h1>
+	<p>你们用所谓的家庭毁了你们的一切<br />
+而我用你们失去的一切组建了家庭</p>
+
+</div>
+
+
+
+
+	<p><small><em>2017-05-13 </em>
+		
+	</small></p>
+
+	<p>
+	<a href="/post/%E6%88%91%E4%BB%AC%E7%9A%84%E8%87%B4%E5%91%BD%E5%A4%B1%E8%AF%AF/">← 我们的致命失误</a>&nbsp;
+	<a href="/post/%E7%B2%BE%E7%A5%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%B4%A7%E5%B8%81/" style="float:right;">精神世界的货币 →</a>
+	</p>
+
+
+
+
+
+
+<footer>
+</footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>不生不灭释义</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="不生不灭释义">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="不生不灭释义">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:image:src" content="">
+	
+	
+	<meta name="og:title" content="不生不灭释义">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://rrotan.github.io/post/%E4%B8%8D%E7%94%9F%E4%B8%8D%E7%81%AD%E9%87%8A%E4%B9%89/">
+	<meta name="og:site_name" content="不生不灭释义">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:author" content="">
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="/js/caption.js"></script>
+</head>
+
+<body>
+	
+
+
+
+<header >
+	<a href="/" style="float: left;color:#777;"><strong></strong></a>
+	
+
+
+</header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+    	el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+	<h1>不生不灭释义 <aside></aside></h1>
+	<p>当活着的我们活了<br />
+死去的我们就死了<br />
+因此说我们是不生的</p>
+
+<p>当活着的我们死了<br />
+死去的我们就活了<br />
+因此说我们是不灭的</p>
+
+</div>
+
+
+
+
+	<p><small><em>2015-11-10 </em>
+		
+	</small></p>
+
+	<p>
+	<a href="/post/%E6%B0%B8%E6%81%92%E7%9A%84%E9%9D%A2%E5%85%B7/">← 永恒的面具</a>&nbsp;
+	<a href="/post/%E6%88%91%E4%BB%AC%E5%94%AF%E4%B8%80%E7%9A%84%E5%8C%BA%E5%88%AB/" style="float:right;">我们唯一的区别 →</a>
+	</p>
+
+
+
+
+
+
+<footer>
+</footer>
+</body>
+</html>
