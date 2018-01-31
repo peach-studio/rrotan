@@ -5,7 +5,7 @@ title = "If you want to get out of here"
 If you want to get out of here  
 But no one can help you  
 Dear!  
-At this time you should pay attention  
+Attention!  
 You actually have left there  
 ——  
 You have successfully left the first line of this poem!  
