@@ -24,7 +24,7 @@ header,header.a{
 }
 @media all and (max-width:840px){
 	html {
-		font-size: 18px;
+		font-size: 17px;
 	}
 	body > * {
 		margin-left: 5.5rem;
@@ -39,7 +39,7 @@ header,header.a{
 }
 @media all and (max-width:580px){
 	html {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	body > * {
         margin: 0.7rem 1.5rem 0 1.5rem;
