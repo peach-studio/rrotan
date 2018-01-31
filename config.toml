@@ -1,3 +1,13 @@
 baseURL = "https://rrotan.github.io"
-languageCode = "zh-cn"
 theme = "onetwothree"
+
+DefaultContentLanguage = "zh"
+
+[languages]
+[languages.zh]
+title = "罗坦"
+weight = 1
+
+[languages.en]
+title = "rrotan"
+weight = 2
