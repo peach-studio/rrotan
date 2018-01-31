@@ -1,6 +1,6 @@
 +++
 date = "2018-01-10T21:54:53"
-title = "until"
+title = "Until"
 +++
 Work until we do not want to work  
 Rest until we do not want to rest  

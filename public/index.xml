@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>罗坦</title>
     <link>https://rrotan.github.io/</link>
-    <description>Recent content on </description>
+    <description>Recent content on 罗坦</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Jan 2018 21:54:53 +0000</lastBuildDate>
     
 	<atom:link href="https://rrotan.github.io/index.xml" rel="self" type="application/rss+xml" />

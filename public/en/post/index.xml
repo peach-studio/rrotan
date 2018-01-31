@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on rrotan</title>
+    <link>https://rrotan.github.io/en/post/</link>
+    <description>Recent content in Posts on rrotan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Jan 2018 21:54:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://rrotan.github.io/en/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>We are all concepts</title>
+      <link>https://rrotan.github.io/en/post/we-are-all-concepts/</link>
+      <pubDate>Mon, 15 Jan 2018 21:54:53 +0000</pubDate>
+      
+      <guid>https://rrotan.github.io/en/post/we-are-all-concepts/</guid>
+      <description>If there is an &amp;lsquo;A&amp;rsquo;
+&amp;lsquo;Not-A&amp;rsquo; appears
+Then there must be a &amp;lsquo;B&amp;rsquo; who is observing &amp;lsquo;A&amp;rsquo;
+&amp;lsquo;Not-B&amp;rsquo; appears
+And then appears a ‘C’ who is observing &amp;lsquo;B&amp;rsquo;
+If &amp;lsquo;C&amp;rsquo; is &amp;lsquo;A&amp;rsquo;
+Then &amp;lsquo;A&amp;rsquo; and &amp;lsquo;B&amp;rsquo; are observing each other
+&amp;lsquo;B&amp;rsquo; must belong to &amp;lsquo;Not-A&amp;rsquo;
+&amp;lsquo;A&amp;rsquo; must belong to &amp;lsquo;Not-B&amp;rsquo;
+In summary
+If there is no &amp;lsquo;A&amp;rsquo;
+Then no &amp;lsquo;Not-A&amp;rsquo;
+Then no &amp;lsquo;B&amp;rsquo;
+Then no &amp;lsquo;Not-B&amp;rsquo;
+So launched:
+If there is an &amp;lsquo;A&amp;rsquo;, there is an &amp;lsquo;B&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>until</title>
+      <link>https://rrotan.github.io/en/post/until/</link>
+      <pubDate>Wed, 10 Jan 2018 21:54:53 +0000</pubDate>
+      
+      <guid>https://rrotan.github.io/en/post/until/</guid>
+      <description>Work until we do not want to work
+Rest until we do not want to rest
+Eat until we do not want to eat
+Do not eat until we do want eat
+Live until we die
+Love until unlove</description>
+    </item>
+    
+  </channel>
+</rss>
