@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>完美为什么不存在</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="完美为什么不存在">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="完美为什么不存在">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:image:src" content="">
+	
+	
+	<meta name="og:title" content="完美为什么不存在">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://rrotan.github.io/post/%E5%AE%8C%E7%BE%8E%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%AD%98%E5%9C%A8/">
+	<meta name="og:site_name" content="完美为什么不存在">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:author" content="">
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="/js/caption.js"></script>
+</head>
+
+<body>
+	
+</body>
+
+
+<header >
+	<a href="/" style="float: left;color:#777;">
+		<strong>罗坦</strong>
+	</a>
+	
+
+
+	
+
+
+	
+</header>
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+    	el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+	<h1>完美为什么不存在 <aside></aside></h1>
+	<p>任何时候当我们想要一个“完美”<br />
+这个“完美”一定是不完美的<br />
+为什么呢？<br />
+因为这个“完美”缺少了“不完美”呀</p>
+
+<p>于是现在我们得到了一个真正的完美<br />
+完美 ＝ “完美” ＋ “不完美”</p>
+
+<p>这个真正的完美<br />
+却不能被说起<br />
+不能被看到<br />
+不能被听见<br />
+连想都不能想<br />
+因为一旦观察到它是“完美”<br />
+它便又缺失了&rdquo;不完美&rdquo;<br />
+从而不再完美了</p>
+
+</div>
+
+
+
+
+	<p><small><em>2014-12-29 </em>
+		
+	</small></p>
+
+	<p>
+	<a href="/post/%E8%B4%B1/">← 贱</a>&nbsp;
+	<a href="/post/%E6%97%A0%E7%94%A8%E4%B9%8B%E7%94%A8/" style="float:right;">无用之用 →</a>
+	</p>
+
+
+
+
+
+
+<footer>
+</footer>
+</body>
+</html>
