@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>区块链的哲学</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="区块链的哲学">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="区块链的哲学">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:image:src" content="">
+	
+	
+	<meta name="og:title" content="区块链的哲学">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://rrotan.github.io/post/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%93%B2%E5%AD%A6/">
+	<meta name="og:site_name" content="区块链的哲学">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:author" content="">
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="/js/caption.js"></script>
+</head>
+
+<body>
+	
+</body>
+
+
+<header >
+	<a href="/" style="float: left;color:#777;">
+		<strong>罗坦</strong>
+	</a>
+	
+
+
+	
+
+
+	
+</header>
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+    	el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+	<h1>区块链的哲学 <aside></aside></h1>
+	<p>当所有人都承认一个交易<br />
+该交易就真的成立</p>
+
+</div>
+
+
+
+
+	<p><small><em>2017-02-15 </em>
+		
+	</small></p>
+
+	<p>
+	<a href="/post/test/">← test</a>&nbsp;
+	<a href="/post/%E5%8F%8C%E7%BC%9D%E5%B9%B2%E6%B6%89%E5%AE%9E%E9%AA%8C%E4%B9%8B%E6%A0%B9%E6%9C%AC%E6%80%A7%E9%94%99%E8%AF%AF/" style="float:right;">双缝干涉实验之根本性错误 →</a>
+	</p>
+
+
+
+
+
+
+<footer>
+</footer>
+</body>
+</html>
