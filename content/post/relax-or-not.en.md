@@ -3,6 +3,8 @@ date = "2018-02-16T22:03:46+00:00"
 title = "Relax or not"
 
 +++
+The man who ‘prefer to relax’ can not get the most relaxing surely, just because he is still doing the ‘prefer’. But relaxing means do nothing. 
+
 If someone gave you 1 million asking you not to relax then will you relax? If yes then he adds to 2 millions, 3 millions, 4, 5 and so on until you giving up the relax, then what’s a ‘relax’? Relax can change to unrelax, vice versa. It proves that a ‘prefer to relax’ is a joke. It does not exist until we say it, and a ‘prefer to work’ appears followed by. The two always appear in pairs.
 
 The same to the concept ‘I’. ‘I’am nothing until someone says that. It’s an irresponsible statement to believe that “I have existed before this” because if so, how does it exist? What is it before observing? We can’t observe anything before we observe something, surely.
