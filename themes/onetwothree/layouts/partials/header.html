@@ -60,17 +60,12 @@
 
 	{{ if .IsTranslated }}
 	<h4>{{ i18n "translations" }}</h4>
-	<ul>
+	<ul style="white-space:nowrap;">
 		{{ range .Translations }}
-		<li>
-			<a href="{{ .Permalink }}">{{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
+		<li style="display: inline-block;">
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
 		</li>
 		{{ end}}
 	</ul>
-	{{ end }}
-
-
-	{{ if .Draft }}
-	DRAFT
 	{{ end }}
 </header>
