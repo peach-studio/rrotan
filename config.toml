@@ -11,3 +11,8 @@ weight = 1
 [languages.en]
 title = "rrotan"
 weight = 2
+
+[languages.jp]
+title = "ロタン"
+weight = 3
+

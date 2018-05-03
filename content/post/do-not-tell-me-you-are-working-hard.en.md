@@ -15,4 +15,4 @@ So don’t tell me you’re working hard
 Otherwise you will feel inferior  
   
 Since you want to lie to me  
-Let you feel inferior, why should I not?  
+Make you feel inferior, why should I not?  
