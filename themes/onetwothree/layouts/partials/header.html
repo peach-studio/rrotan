@@ -31,6 +31,12 @@
 	<meta name="article:author" content="{{ $.Site.Params.twitter }}">
 	<meta name="article:tag" content="{{ range .Params.tags }}{{.}} {{end}}">
 	<link rel="stylesheet" type="text/css" href="/css/style{{ $.Site.Params.style }}.css">
+	{{ if not .IsPage }}
+	<link rel="stylesheet" type="text/css" href="/css/header.css">
+	{{ end }}
+	{{ if .IsPage }}
+	<link rel="stylesheet" type="text/css" href="/css/header_no_line.css">
+	{{ end }}
 	<script src="/js/caption.js"></script>
 </head>
 
@@ -40,8 +46,7 @@
 	{{ end }}
 </body>
 
-
-<header >
+<header>
 	<a href="{{ "/" | relLangURL }}" style="float: left;color:#777;">
 		<strong>{{ $.Site.Title }}</strong>
 	</a>
