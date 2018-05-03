@@ -58,7 +58,7 @@
 	{{ end }}
 
 
-	{{ if .IsTranslated }}
+	{{ if and (.IsTranslated) (not .IsPage) }}
 	<h4>{{ i18n "translations" }}</h4>
 	<ul style="white-space:nowrap;">
 		{{ range .Translations }}
