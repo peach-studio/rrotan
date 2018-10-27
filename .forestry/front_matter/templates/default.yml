@@ -19,6 +19,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/empty-is-innocent.md
 - content/post/paradox-of-selfish.md
 - content/post/relax-or-not.en.md
 - content/post/the-desire-of-no-desire.md
