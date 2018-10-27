@@ -19,6 +19,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/unintentional-charity.md
 - content/post/do-not-mean.md
 - content/post/eternal-double-loss.md
 - content/post/empty-is-innocent.md
