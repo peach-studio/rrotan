@@ -1,6 +1,6 @@
 +++
 date = "10/22/2016 9:54 PM +0800"
-title = "paradox of selfish"
+title = "自私的悖论"
 
 +++
 你为了自己  
