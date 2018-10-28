@@ -19,6 +19,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/wind-wont-wait-for-you.md
 - content/post/level-of-self-control.md
 - content/post/unintentional-charity.md
 - content/post/do-not-mean.md
