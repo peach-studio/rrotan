@@ -1,7 +1,7 @@
 +++
-date = "2018-10-28T22:39:00+08:00"
+date = "2016-06-17T22:39:00+08:00"
 draft = true
-title = "principle-of-constant-light-speed-2"
+title = "光速不变原理（二）"
 
 +++
 
