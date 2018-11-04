@@ -19,8 +19,8 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/substance-is-empty.md
 - content/post/fundamental-difference.md
-- content/post/Dharma-lecture-0.md
 - content/post/principle-of-constant-light-speed-2.md
 - content/post/wind-wont-wait-for-you.md
 - content/post/level-of-self-control.md
