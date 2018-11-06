@@ -19,6 +19,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/time-principle.md
 - content/post/substance-is-empty.md
 - content/post/fundamental-difference.md
 - content/post/principle-of-constant-light-speed-2.md
