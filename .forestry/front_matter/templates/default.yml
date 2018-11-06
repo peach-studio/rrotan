@@ -19,6 +19,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/the-man-unafraid-of-death.md
 - content/post/hedge-fund-and-sex-chromosome.md
 - content/post/time-principle.md
 - content/post/substance-is-empty.md
