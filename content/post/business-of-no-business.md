@@ -1,6 +1,10 @@
 +++
 date = "2018-12-18T09:00:53+08:00"
-draft = true
-title = "business of no business"
+title = "无关之关"
 
 +++
+当你说你与我无关  
+我们有关  
+  
+当你说你与我有关  
+我们无关  
