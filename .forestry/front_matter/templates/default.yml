@@ -19,6 +19,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/peach.md
 - content/post/relax-or-not.en.md
 - content/post/loss-of-love.md
 - content/post/how-to-obtain-the-necessary-respect.md
