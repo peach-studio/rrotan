@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 title = "空与错"
 
 +++
