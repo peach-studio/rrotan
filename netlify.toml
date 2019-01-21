@@ -21,7 +21,7 @@ command = "hugo  --gc --minify --buildFuture -b https://rrotan.netlify.com"
 HUGO_VERSION = "0.53"
 
 [context.branch-deploy]
-command = "hugo  --gc --minify -b https://rrotan.netlify.com"
+command = "hugo  --gc --minify -b https://chinae.com.cn"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.53"
