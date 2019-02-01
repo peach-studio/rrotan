@@ -19,21 +19,17 @@ fields:
   hidden: false
   default: true
 pages:
-- content/post/peach.md
 - content/post/relax-or-not.en.md
 - content/post/loss-of-love.md
+- content/post/无非.md
 - content/post/how-to-obtain-the-necessary-respect.md
 - content/post/the-desire-of-no-desire.md
 - content/post/paradox-of-selfish.md
 - content/post/empty-is-innocent.md
-- content/post/two-way-loss.md
 - content/post/do-not-mean.md
-- content/post/unintentional-charity.md
-- content/post/level-of-self-control.md
 - content/post/wind-wont-wait-for-you.md
 - content/post/principle-of-constant-light-speed-2.md
 - content/post/fundamental-difference.md
-- content/post/substance-is-empty.md
 - content/post/we-meet-here.md
 - content/post/time-principle.md
 - content/post/the-man-unafraid-of-death.md
@@ -44,5 +40,10 @@ pages:
 - content/post/heart.md
 - content/post/me.md
 - content/post/null-and-false.md
+- content/post/unintentional-charity.md
+- content/post/substance-is-empty.md
+- content/post/peach.md
+- content/post/level-of-self-control.md
+- content/post/two-way-loss.md
 - content/post/business-of-no-business.md
 - content/post/hedgehog-rider.md
