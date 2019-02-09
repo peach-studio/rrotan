@@ -1,6 +1,6 @@
 +++
 date = "2018-03-13T03:14:18+00:00"
-title = "How to obtain the necessary respect"
+title = "The necessary respect"
 
 +++
 No one needs to respect you  

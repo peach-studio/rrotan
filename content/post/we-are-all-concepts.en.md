@@ -23,4 +23,4 @@ So launched:
 If there is an 'A', there is an 'B'  
 If there is no 'A', there is no 'B'  
   
-It proves that the so-called "world" is just a concept  
+It proves that we are all concepts  
