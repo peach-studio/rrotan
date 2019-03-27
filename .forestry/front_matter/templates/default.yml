@@ -18,6 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/宝贝.md
 - content/post/happiness.md
 - content/post/your-freedom.md
 - content/post/empty-is-innocent.md
