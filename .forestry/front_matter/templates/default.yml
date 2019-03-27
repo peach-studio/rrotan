@@ -18,7 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
-- content/post/你的自由.md
+- content/post/your-freedom.md
 - content/post/empty-is-innocent.md
 - content/post/heart.md
 - content/post/Dad-says-3.md
