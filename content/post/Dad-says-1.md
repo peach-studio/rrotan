@@ -49,7 +49,7 @@ title = "老爸说 · 一"
 你还是不知道  
 你的老婆最美.  
   
-Hear this...  
+Hear this..  
 God cry  
 .  
 .  
