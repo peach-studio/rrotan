@@ -18,6 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/该无.md
 - content/post/baby.md
 - content/post/happiness.md
 - content/post/your-freedom.md
