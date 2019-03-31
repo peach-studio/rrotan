@@ -18,7 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
-- content/post/should-null.md
+- content/post/should-nothing.md
 - content/post/baby.md
 - content/post/happiness.md
 - content/post/your-freedom.md
