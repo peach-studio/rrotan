@@ -18,7 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
-- content/post/ddd.md
+- content/post/so.md
 - content/post/wormhole.md
 - content/post/should-nothing.md
 - content/post/baby.md
