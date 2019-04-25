@@ -18,6 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/老爸说-四.md
 - content/post/is-it.md
 - content/post/in-fact.md
 - content/post/so.md
