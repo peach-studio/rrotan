@@ -18,6 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/是吧.md
 - content/post/in-fact.md
 - content/post/so.md
 - content/post/wormhole.md
