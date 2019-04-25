@@ -18,7 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
-- content/post/老爸说-五.md
+- content/post/dad-says-5.md
 - content/post/dad-says-4.md
 - content/post/is-it.md
 - content/post/in-fact.md
