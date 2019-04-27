@@ -18,6 +18,7 @@ fields:
   hidden: false
   default: true
 pages:
+- content/post/老爸说-九.md
 - content/post/dad-says-8.md
 - content/post/老爸说-七.md
 - content/post/dad-says-6.md
